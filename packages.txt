@@ -1,9 +1,9 @@
-libreoffice-writer
-libreoffice-calc
-poppler-utils
-qpdf
-fonts-liberation
-fonts-dejavu-core
-fonts-carlito
-fonts-caladea
-fonts-noto-cjk
+   libreoffice-writer
+   libreoffice-calc
+   poppler-utils
+   qpdf
+   fonts-liberation
+   fonts-dejavu-core
+   fonts-crosextra-carlito
+   fonts-crosextra-caladea
+   fonts-noto-cjk
