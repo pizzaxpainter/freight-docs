@@ -1,0 +1,14 @@
+[server]
+headless = true
+maxUploadSize = 300          # MB per file
+enableXsrfProtection = true
+enableCORS = true
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+
+[theme]
+base = "light"

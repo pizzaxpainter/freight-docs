@@ -1,0 +1,8 @@
+{
+  "name": "Freight Document Processor",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12-bookworm",
+  "onCreateCommand": "sudo apt-get update && sudo apt-get install -y --no-install-recommends $(grep -v '^#' packages.txt | tr '\\n' ' ') && pip install -r requirements.txt",
+  "postAttachCommand": "streamlit run app.py --server.port 8501",
+  "forwardPorts": [8501],
+  "portsAttributes": { "8501": { "label": "Freight Document Processor", "onAutoForward": "openBrowser" } }
+}
